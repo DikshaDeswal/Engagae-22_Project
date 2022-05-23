@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sell</title>
+    <link rel="stylesheet" type="test/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+            .wrapper li {
+            float: left;
+            border-right: 1px solid #bbb;
+            }
+            .wrapper ul{
+                list-style-type: none;
+                position: fixed
+                margin: 70;
+                padding: 200;
+                width: 120;
+                overflow: hidden;
+                background-color: #000000;
+            }
+            .nav-area li a{
+                display: block;
+                color: #FAF0E6;
+                text-align: center;
+                padding: 8px 26px;
+                text-decoration: none;
+            }
+            .nav-area li .active{
+                background-color: #FFDEAD;
+                color: #800080;
+            }
+            .nav-area li a:hover{
+                background-color: #C71585;
+                color: white;
+            }
+
+
+        body{
+            #background-image: url('bg_image.jpg');
+            #background-repeat: no-repeat;
+            #background-size: 100% 500px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            color: yellow;
+            text-align: center;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,800&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            padding: 0;
+            position: fixed;
+            bottom: 0;
+            background-color: #D2B48C;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .footer-col ul{
+            list-style: none;
+        }
+        .footer{
+            background-color: #000080;
+            padding: 30px 0;
+        }
+        .footer-col{
+            width: 25%;
+            padding: 0 15px;
+        }
+        .footer-col h4{
+            font-size: 18px;
+            color: #000000;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 200;
+            position: relative;
+        }
+        .footer-col h4::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color=#000000;
+            height: 2px;
+            box-sizing: border-box;
+            width: 10px;
+
+        }
+        .footer-col ul li:not(:last-child){
+            margin-top:auto;
+            margin-bottom: 10px;
+        }
+        .footer-col ul li a{
+            line-height: 1.5;
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+            text-transform: Capitalize;
+            color: #191970;
+            text-decoration: none;
+            font-weight: 100;
+            color: #F0FFF0;
+            display: block;
+        }
+        .footer-col .social-links a{
+            display: inline-block;
+            height: 20px;
+            width= 50px;
+            background-color: rgba(256,256,256,0.01);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%
+            color: #F0FFF0;
+            translation: all 0.5s ease;
+        }
+        h5 {
+            line-height: 3.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            text-align: center;
+            color: #FFA500;
+        }
+        h10 {
+            line-height: 3.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: #FFA500;
+        }
+        .column1 {
+            float: left;
+            width: 50%;
+        }
+        .row1:after {
+            content: "";
+            display: table;
+            clear: both;
+            box-sizing: border-box;
+        }h6 {
+            line-height: 1.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: #006400;
+            text-align: center;
+        }
+        p1 {
+            line-height: 1.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: #000000;
+            text-align: center;
+        }
+        input[type=number], select {
+            width: 500px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+        }
+        input[type=submit] {
+            width: 100px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .row-btn li a{
+            font-size: 18px;
+            color: #DC143C;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 200;
+            position: relative;
+            text-decoration: none;
+        }
+        h11 {
+            line-height: 3.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            text-align: center;
+            color: #006400;
+        }
+
+    </style>
+</head>
+
+<body>
+<header>
+    <h10>Engage'22</h10>
+    <div class="header">
+        <div class="wrapper">
+            <ul class="nav-area">
+                <li><a href="/">home</a></li>
+                <li><a href="/sell">Sell</a></li>
+                <li><a href="/buy">Buy</a></li>
+                <li><a href="/stats">Statistics</a></li>
+                <li><a href="/predict">Predict</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li style="float:right"><a class="active" href="#Portfolio">Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+
+      <br>
+      <h5>Engine Specifications</h5>
+      <form method="POST" action="{{url_for('main_sell_pred')}}" style="text-align: center; ">
+            <b> Displacement : <input type="number" step="any" name='a' placeholder="enter..."><br><br>
+                Cylinders : <input type="number" step="any" name='b' placeholder="enter..."><br><br>
+                Tank : <input type="number" step="any" name='c' placeholder="enter..."><br><br>
+                System : <input type="number" step="any" name='d' placeholder="enter..."><br><br>
+                Mileage : <input type="number" step="any" name='e' placeholder="enter..."><br><br>
+                <div class="col_btn">
+                    <div class="row-btn">
+                        <input type="submit" value='Compare'>
+                    </div>
+                    <div class="row-btn">
+                        <li><a href="/stats">Click to learn more about Mileage Specifications</a></li>
+                    </div>
+                </div>
+            </b>
+        </form>
+      <h11> Expected Mileage :{{  data1 }} </h11><br>
+
+    <br>
+      <h5>Chasis Size and Specifications</h5>
+      <form method="POST" action="{{url_for('main_sell_pred_Power')}}" style="text-align: center; ">
+            <b> Kerb Weight : <input type="number" step="any" name='k' placeholder="enter..."><br><br>
+                Length : <input type="number" step="any" name='l' placeholder="enter..."><br><br>
+                Width : <input type="number" step="any" name='m' placeholder="enter..."><br><br>
+                Torque : <input type="number" step="any" name='n' placeholder="enter..."><br><br>
+                <div class="col_btn">
+                    <div class="row-btn">
+                        <input type="submit" value='Compare'>
+                    </div>
+                    <div class="row-btn">
+                        <li><a href="/stats/stats_body">Click to learn more about Chasis Specifications</a></li>
+                    </div>
+                </div>
+            </b>
+        </form>
+      <h11> Expected Power :{{  data3 }} </h11><br>
+
+    <br>
+        <h5>Miscellaneous Features</h5>
+        <form method="POST" action="{{url_for('main_sell_pred_Torque')}}" style="text-align: center; ">
+            <b> Automatic Headlamps : <input type="number" step="any" name='f' placeholder="enter"><br><br>
+            Electronic Stability Program : <input type="number" step="any" name='g' placeholder="enter"><br><br>
+            Number of Airbags : <input type="number" step="any" name='h' placeholder="enter"><br><br>
+            Torque : <input type="number" step="any" name='i' placeholder="enter"><br><br>
+            Power : <input type="number" step="any" name='j' placeholder="enter"><br><br>
+            <div class="col_btn">
+                    <div class="row-btn">
+                        <input type="submit" value='Compare'>
+                    </div>
+                    <div class="row-btn">
+                        <li><a href="/stats/stats_miscellaneous">Click to learn more about Miscellaneous Feature Specifications</a></li>
+                    </div>
+            </div>
+            </b>
+        </form>
+        <h11> Expected Torque :{{  data2 }} </h11><br>
+
+        <script>
+            function
+        </script>
+      <br><br><br><br><br><br><br><br><br><br>
+
+
+<footer class="footer>">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>shop online</h4>
+                <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>home</title>
+    <link rel="stylesheet" type="test/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+            .wrapper li {
+            float: left;
+            #border-right: 1px solid #bbb;
+            }
+            .wrapper ul{
+                list-style-type: none;
+                position: fixed
+                margin: 70;
+                padding: 200;
+                width: 120;
+                #overflow: hidden;
+                background-color: #000000;
+            }
+            .nav-area li a{
+                display: block;
+                color: #FAF0E6;
+                text-align: center;
+                padding: 8px 26px;
+                text-decoration: none;
+            }
+            .nav-area li .active{
+                background-color: #FFDEAD;
+                color: #800080;
+            }
+            .nav-area li a:hover{
+                background-color: #C71585;
+                color: white;
+            }
+
+
+        body{
+            background-image: url('../static/bg_img.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 800px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            color: yellow;
+            text-align: center;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,800&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h5 {
+            line-height: 3.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: #FFA500;
+        }
+
+    </style>
+</head>
+
+<body>
+<header>
+    <h5>Engage'22</h5>
+    <div class="header">
+        <div class="wrapper">
+            <ul class="nav-area">
+                <li><a href="/home">home</a></li>
+                <li><a href="/sell">Sell</a></li>
+                <li><a href="/buy">Buy</a></li>
+                <li><a href="/stats">Statistics</a></li>
+                <li><a href="/predict">Predict</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li style="float:right"><a class="active" href="#Portfolio">Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<br><br><br><br>
+<h1>Welcome!</h1>
+<h2>About the vehicles</h2>
+
+
+</body>
+</html>
