@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sell</title>
+    <link rel="stylesheet" type="test/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+            .wrapper li {
+            float: left;
+            border-right: 1px solid #bbb;
+            }
+            .wrapper ul{
+                list-style-type: none;
+                position: fixed
+                margin: 70;
+                padding: 200;
+                width: 120;
+                overflow: hidden;
+                background-color: #000000;
+            }
+            .nav-area li a{
+                display: block;
+                color: #FAF0E6;
+                text-align: center;
+                padding: 8px 26px;
+                text-decoration: none;
+            }
+            .nav-area li .active{
+                background-color: #FFDEAD;
+                color: #800080;
+            }
+            .nav-area li a:hover{
+                background-color: #C71585;
+                color: white;
+            }
+
+
+        body{
+            background-image: url('../static/buy-car12.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 1200px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            color: yellow;
+            text-align: center;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,800&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            padding: 0;
+            position: fixed;
+            bottom: 0;
+            background-color: #000;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .footer-col ul{
+            list-style: none;
+        }
+        .footer{
+            background-color: #000080;
+            padding: 30px 0;
+        }
+        .footer-col{
+            width: 25%;
+            padding: 0 15px;
+        }
+        .footer-col h4{
+            font-size: 18px;
+            color: #000000;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 200;
+            position: relative;
+        }
+        .footer-col h4::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color=#000000;
+            height: 2px;
+            box-sizing: border-box;
+            width: 10px;
+
+        }
+        .footer-col ul li:not(:last-child){
+            margin-top:auto;
+            #margin-bottom: 10px;
+        }
+        .footer-col ul li a{
+            line-height: 1.5;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            text-transform: Capitalize;
+            color: #191970;
+            text-decoration: none;
+            font-weight: 100;
+            color: #FFFFFF;
+            display: block;
+        }
+        .footer-col .social-links a{
+            display: inline-block;
+            height: 20px;
+            width= 50px;
+            background-color: rgba(256,256,256,0.01);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%
+            color: #F0FFF0;
+            translation: all 0.5s ease;
+        }
+        h5 {
+            line-height: 3.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            color: #191970;
+        }
+        h10 {
+            line-height: 3.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: #FFA500;
+        }
+        .column1 {
+            float: left;
+            width: 50%;
+        }
+        .row1:after {
+            content: "";
+            display: table;
+            clear: both;
+            box-sizing: border-box;
+        }h6 {
+            line-height: 1.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: #006400;
+            text-align: center;
+        }
+        p1 {
+            line-height: 1.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: #000000;
+            text-align: center;
+        }
+        input[type=number], select {
+            width: 500px;
+            padding: 8px 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #000;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+        }
+        input[type=text], select {
+            width: 500px;
+            padding: 8px 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #000;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+        }
+        input[type=submit] {
+            width: 400px;
+            background-color: #191970;
+            color: white;
+            padding: 14px 20px;
+            margin: 4px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .row-btn li a{
+            font-size: 18px;
+            color: #DC143C;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 200;
+            position: relative;
+            text-decoration: none;
+        }
+        h11 {
+            line-height: 3.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 30px;
+            text-align: center;
+            color: #191970;
+            padding: 30px;
+        }
+        .column2 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 430px;
+        }
+        .row2:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="header">
+        <div class="wrapper">
+            <ul class="nav-area">
+                <li><a href="/">home</a></li>
+                <li><a href="/sell">Sell</a></li>
+                <li><a href="/buy">Buy</a></li>
+                <li><a href="/stats">Statistics</a></li>
+                <li><a href="/predict">Predict</a></li>
+                <li><a href="/buy/buy_pro">Categories</a></li>
+
+            </ul>
+        </div>
+    </div>
+</header>
+<h5>'Whoever said money can't buy happiness just never bought the right car'</h5>
+<h5>'Enter details... And let us suggest best match to your choice :)'</h5>
+<div class="row2">
+  <div class="column2">
+      <form method="POST" action="{{url_for('main_buy_pred')}}" style="text-align: center; ">
+            <b> Budget : <input type="number" step="any" name='b1' placeholder="Budget"><br><br>
+                <label for="cars">Choose a car:</label>
+
+                <select name="b11" id="cars">
+                    <option value="1">Petrol</option>
+                    <option value="2">Diesel</option>
+                    <option value="3">Hybrid</option>
+                    <option value="4">CNG</option>
+                </select>
+                <br>
+                Gears : <input type="number" step="any" name='b3' placeholder="No of Gears"><br><br>
+                Mileage : <input type="number" step="any" name='b4' placeholder="Mileage (km/litre)"><br><br>
+                Power : <input type="number" step="any" name='b5' placeholder="Power PS@5500rpm "><br><br>
+                Torque : <input type="number" step="any" name='b6' placeholder="Torque PS@5500rpm"><br><br>
+                Length : <input type="number" step="any" name='b7' placeholder="Length mm"><br><br>
+                Width : <input type="number" step="any" name='b8' placeholder="Width mm"><br><br>
+                Seating Capacity : <input type="number" step="any" name='b9' placeholder="Seating Capacity"><br><br>
+                Ground Clearance : <input type="number" step="any" name='b10' placeholder="Clearance mm"><br><br>
+                <div class="col_btn">
+                    <div class="row-btn">
+                        <input type="submit" value='Suggest'>
+                    </div>
+                    <div class="row-btn">
+                        <li><a href="/sell_stat">Click to learn more about statistics behind suggestion</a></li>
+                    </div>
+                </div>
+            </b>
+        </form>
+      <h11> Best Possible Match :{{  data9 }} </h11><br><br><br><br><br><br><br>
+  </div>
+
+  <div class="column2">
+        <h5></h5>
+
+  </div>
+</div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<footer class="footer>">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+
+                <ul>
+                    <li><a href="#">about us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+
+                <ul>
+                    <li><a href="/portfolio">our services</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-col">
+
+                <ul>
+                    <li><a href="/portfolio">Privacy policy</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-col">
+
+                <div class="social-links">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/diksha-deswal-8b3609219/" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

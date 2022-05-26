@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pred_Mileage</title>
+    <link rel="stylesheet" type="test/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="test/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+            .wrapper li {
+            float: left;
+            border-right: 1px solid #bbb;
+            }
+            .wrapper ul{
+                list-style-type: none;
+                position: fixed
+                margin: 70;
+                padding: 200;
+                width: 120;
+                overflow: hidden;
+                background-color: #000000;
+            }
+            .nav-area li a{
+                display: block;
+                color: #FAF0E6;
+                text-align: center;
+                padding: 8px 26px;
+                text-decoration: none;
+            }
+            .nav-area li .active{
+                background-color: #FFDEAD;
+                color: #800080;
+            }
+            .nav-area li a:hover{
+                background-color: #C71585;
+                color: white;
+            }
+
+
+        body{
+            background-image: url('../static/imgpro13.jpg');
+            background-repeat: no-repeat;
+            background-size: 2000px 1000px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            color: yellow;
+            text-align: center;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,800&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            padding: 0;
+            position: fixed;
+            bottom: 0;
+            background-color: #000;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .footer-col ul{
+            list-style: none;
+        }
+        .footer{
+            background-color: #000080;
+            padding: 30px 0;
+        }
+        .footer-col{
+            width: 25%;
+            padding: 0 15px;
+        }
+        .footer-col h4{
+            font-size: 18px;
+            color: #000000;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 200;
+            position: relative;
+        }
+        .footer-col h4::before{
+            content: '';
+            position: fixed;
+            left: 0;
+            bottom: -10px;
+            background-color=#000000;
+            height: 2px;
+            box-sizing: border-box;
+            width: 10px;
+        }
+        .footer-col ul li:not(:last-child){
+            margin-bottom: 10px;
+        }
+        .footer-col ul li a{
+            line-height: 1.5;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            text-transform: Capitalize;
+            color: #191970;
+            text-decoration: none;
+            font-weight: 100;
+            color: #FFFFFF;
+            display: block;
+        }
+        .footer-col .social-links a{
+            display: inline-block;
+            height: 20px;
+            width= 50px;
+            background-color: rgba(256,256,256,0.01);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%
+            color: #F0FFF0;
+            translation: all 0.5s ease;
+        }
+        h5 {
+            line-height: 3.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: #FFA500;
+            text-align: left;
+        }
+        h6 {
+            line-height: 1.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 30px;
+            color: #F5F5F5;
+            text-align: center;
+        }
+        p1 {
+            line-height: 1.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: #000000;
+            text-align: center;
+        }
+        .column1 .row-btn {
+            text-align: center;
+            width: 100%;
+        }
+        .images_show {
+           display: block;
+           margin-left: 100px;
+           margin-right: 100px;
+           width: 700px;
+        }
+
+        .row-btn li a{
+            line-height: 2.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            text-transform: Capitalize;
+            color: #white;
+            text-decoration: none;
+            font-weight: 100;
+            color: white;
+            display: block;
+        }
+        .container1{
+            background-color: #000;
+            width: 450px;
+            border: 0.1px white;
+            padding: 15px;
+            margin: 20px;
+            align = center;
+            outline-style: ridge;
+            display:inline-block;
+        }
+        .row-btn .container1 li{
+            list-style-type: none;
+        }
+        .row-btn .container1 a:hover{
+            background-color: #C71585;
+            color: white;
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 30px;
+            height: 450px;
+        }
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+        .row .column a{
+            padding: 80px;
+        }
+
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="header">
+        <div class="wrapper">
+            <ul class="nav-area">
+                <li><a href="/">home</a></li>
+                <li><a href="/sell">Sell</a></li>
+                <li><a href="/buy">Buy</a></li>
+                <li><a href="/stats">Statistics</a></li>
+                <li><a href="/predict">Predict</a></li>
+
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="row">
+  <div class="column">
+    <h6>SPACE</h6>
+    <a href="/buy/buy_pro/buy1" target="_blank">
+        <img src="../static/icon1.png" class="img-circle" alt="Cinque Terre" width="300" height="250">
+    </a>
+    <h6>SAFETY</h6>
+    <a href="/buy/buy_pro/buy2" target="_blank">
+        <img src="../static/icon2.png" class="img-circle" alt="Cinque Terre" width="300" height="250">
+    </a>
+  </div>
+  <div class="column">
+    <h6>POWER</h6>
+    <a href="/buy/buy_pro/buy3" target="_blank">
+        <img src="../static/icon3.png" class="img-circle" alt="Cinque Terre" width="300" height="250">
+    </a>
+    <h6>COMFORT</h6>
+    <a href="/buy/buy_pro/buy4" target="_blank">
+        <img src="../static/icon4.png" class="img-circle" alt="Cinque Terre" width="300" height="250">
+    </a>
+  </div>
+  <div class="column">
+    <h6>ENGINE</h6>
+    <a href="/buy/buy_pro/buy5" target="_blank">
+        <img src="../static/icon6.jpg" class="img-circle" alt="Cinque Terre" width="300" height="250">
+    </a>
+    <h6>MISCELLANEOUS</h6>
+    <a href="/buy/buy_pro/buy6" target="_blank">
+        <img src="../static/icon5.png" class="img-circle" alt="Cinque Terre" width="300" height="250">
+    </a>
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer class="footer>">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <ul>
+                    <li><a href="/portfolio">about us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <ul>
+                    <li><a href="/portfolio">our services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <ul>
+                    <li><a href="/portfolio">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <div class="social-links">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/diksha-deswal-8b3609219/" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
