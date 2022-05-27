@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sell</title>
+    <link rel="stylesheet" type="test/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+            .wrapper li {
+            float: left;
+            border-right: 1px solid #bbb;
+            }
+            .wrapper ul{
+                list-style-type: none;
+                position: fixed
+                margin: 70;
+                padding: 200;
+                width: 120;
+                overflow: hidden;
+                background-color: #000000;
+            }
+            .nav-area li a{
+                display: block;
+                color: #FAF0E6;
+                text-align: center;
+                padding: 8px 26px;
+                text-decoration: none;
+            }
+            .nav-area li .active{
+                background-color: #FFDEAD;
+                color: #800080;
+            }
+            .nav-area li a:hover{
+                background-color: #C71585;
+                color: white;
+            }
+
+
+        body{
+            background-image: url('../static/bgpro8.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 1100px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            color: yellow;
+            text-align: center;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,800&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            padding: 0;
+            position: fixed;
+            bottom: 0;
+            background-color: #000;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .footer-col ul{
+            list-style: none;
+        }
+        .footer{
+            background-color: #000080;
+            padding: 30px 0;
+        }
+        .footer-col{
+            width: 25%;
+            padding: 0 15px;
+        }
+        .footer-col h4{
+            font-size: 18px;
+            color: #000000;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 200;
+            position: relative;
+        }
+        .footer-col h4::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color=#000000;
+            height: 2px;
+            box-sizing: border-box;
+            width: 10px;
+
+        }
+        .footer-col ul li:not(:last-child){
+            margin-top:auto;
+            #margin-bottom: 10px;
+        }
+        .footer-col ul li a{
+            line-height: 1.5;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            text-transform: Capitalize;
+            color: #191970;
+            text-decoration: none;
+            font-weight: 100;
+            color: #FFFFFF;
+            display: block;
+        }
+        .footer-col .social-links a{
+            display: inline-block;
+            height: 20px;
+            width= 50px;
+            background-color: rgba(256,256,256,0.01);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%
+            color: #F0FFF0;
+            translation: all 0.5s ease;
+        }
+        h5 {
+            line-height: 3.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            color: #191970;
+        }
+        h10 {
+            line-height: 3.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: #FFA500;
+        }
+        .column1 {
+            float: left;
+            width: 50%;
+        }
+        .row1:after {
+            content: "";
+            display: table;
+            clear: both;
+            box-sizing: border-box;
+        }h6 {
+            line-height: 1.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: #006400;
+            text-align: center;
+        }
+        p1 {
+            line-height: 1.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            color: #000000;
+            text-align: center;
+        }
+        input[type=number], select {
+            width: 500px;
+            padding: 8px 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #000;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+        }
+        input[type=text], select {
+            width: 500px;
+            padding: 8px 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #000;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+        }
+        input[type=submit] {
+            width: 400px;
+            background-color: #191970;
+            color: white;
+            padding: 14px 20px;
+            margin: 4px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .row-btn li a{
+            font-size: 18px;
+            color: #DC143C;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 200;
+            position: relative;
+            text-decoration: none;
+        }
+        h11 {
+            line-height: 3.0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 30px;
+            text-align: center;
+            color: #191970;
+            padding: 30px;
+        }
+        .column2 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 430px;
+        }
+        .row2:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="header">
+        <div class="wrapper">
+            <ul class="nav-area">
+                <li><a href="/">home</a></li>
+                <li><a href="/sell">Sell</a></li>
+                <li><a href="/buy">Buy</a></li>
+                <li><a href="/stats">Statistics</a></li>
+                <li><a href="/predict">Predict</a></li>
+
+            </ul>
+        </div>
+    </div>
+</header>
+<h5></h5>
+<h5></h5>
+<div class="row2">
+  <div class="column2">
+  </div>
+  <div class="column2">
+      <h5>Miscellaneous</h5>
+      <form method="POST" action="{{url_for('main_buy_buy1')}}" style="text-align: center; ">
+
+               <label for="cars3">Budget:</label>
+
+                <select name="z1" id="cars3">
+                    <option value="25000">under Rs50,000</option>
+                    <option value="75000">Rs50,000 - Rs1,00,000</option>
+                    <option value="125000">Rs1,00,000 - Rs1,50,000</option>
+                    <option value="175000">Rs1,50,000 - Rs2,00,000</option>
+                    <option value="225000">Rs2,00,000 - Rs2,50,000</option>
+                    <option value="275000">Rs2,50,000 - Rs3,00,000</option>
+                    <option value="350000">Rs3,00,000 - Rs3,50,000</option>
+                    <option value="450000">Rs3,50,000 - Rs4,00,000</option>
+                    <option value="550000">Rs4,00,000 - Rs4,50,000</option>
+                    <option value="600000">Rs4,50,000 - Rs5,00,000</option>
+                    <option value="700000">Rs5,00,000 - Rs5,50,000</option>
+                    <option value="50000">Rs5,50,000 - Rs6,00,000</option>
+                    <option value="60000">Rs6,00,000 - Rs6,50,000</option>
+                    <option value="80000">Rs6,50,000 - Rs7,00,000</option>
+                    <option value="120000">Rs7,00,000 - Rs7,50,000</option>
+                    <option value="140000">Rs7,50,000 - Rs8,00,000</option>
+                    <option value="170000">Rs8,00,000 - Rs8,50,000</option>
+                    <option value="230000">Rs8,50,000 - Rs9,00,000</option>
+                    <option value="270000">Rs9,00,000 - Rs9,50,000</option>
+                    <option value="330000">Rs9,50,000 - Rs5,99,000</option>
+                </select>
+                   <br>
+               <label for="cars2">Body Type:</label>
+
+                <select name="z2" id="cars2">
+                    <option value="17">SUV</option>
+                    <option value="16">Sedan</option>
+                    <option value="15">Hatchback</option>
+                    <option value="14">Convertible</option>
+                    <option value="13">Coupe</option>
+                    <option value="12">Crossover</option>
+                    <option value="11">Pick-up</option>
+                    <option value="10">Sports</option>
+                    <option value="9">Crossover, SUV</option>
+                    <option value="8">Sedan, Coupe</option>
+                    <option value="7">Sports, Convertible</option>
+                    <option value="6">Sedan, Crossover</option>
+                </select>
+                   <br>
+                <label for="cars">Seating Capacity:</label>
+
+                <select name="z3" id="cars">
+                    <option value="1">Four</option>
+                    <option value="2">Five</option>
+                    <option value="3">Seven</option>
+                    <option value="4">Six</option>
+                    <option value="4">Eight</option>
+                    <option value="4">Nine</option>
+                </select>
+                <br>
+                Length : <input type="number" step="any" name='z4' placeholder="Length (mm)"><br><br>
+                Width : <input type="number" step="any" name='z5' placeholder="Width (mm)"><br><br>
+                <div class="col_btn">
+                    <div class="row-btn">
+                        <input type="submit" value='Suggest'>
+                    </div>
+
+                </div>
+            </b>
+        </form>
+      <h11> Best Possible Match :{{  data11 }} </h11><br><br><br><br><br><br><br>
+  </div>
+
+  <div class="column2">
+        <h5></h5>
+
+  </div>
+</div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<footer class="footer>">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+
+                <ul>
+                    <li><a href="#">about us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+
+                <ul>
+                    <li><a href="/portfolio">our services</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-col">
+
+                <ul>
+                    <li><a href="/portfolio">Privacy policy</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-col">
+
+                <div class="social-links">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/diksha-deswal-8b3609219/" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
