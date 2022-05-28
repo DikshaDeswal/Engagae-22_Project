@@ -79,3 +79,4 @@ Cars suggest and price predict web application uses a number of open source pyth
 -I divided my whole task into four week sprint program and proceeded, step by step from learning, building and deploying the project. Whatever I learned, explored, researched during this program is fully detailed in tables below:
 
 # Video link of project with full explanation
+Link : https://youtu.be/Nhd_aA6lrn8
