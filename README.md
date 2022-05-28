@@ -1,6 +1,6 @@
 # Car Suggest and Price Predict Web Application
 - Namaste, Everyone!
-- I created this ML based car suggest and price predict application for MS ENGAGAE program 2022. The website is fully functional and useable in real life. This is easy to use. I used agile methodology for this project as mentioned as pasrt of this program. I divided my whole task into four weeks. I started completing my tasks as sprint wise that helped in smooth learning and building the product.
+- I created this ML based car suggest and price predict application for MS ENGAGAE program 2022. The website is fully functional and useable in real life. This is easy to use. I used agile methodology for this project as mentioned as part of this program. I divided my whole task into four weeks. I started completing my tasks as sprint wise that helped in smooth learning and building the product.
 
 
 ## Features
@@ -76,7 +76,8 @@ Cars suggest and price predict web application uses a number of open source pyth
 - [Swiper](https://unpkg.com/swiper@8/swiper-bundle.min.css) - Swiper design and style script
 
 # Application Development Strategy and Day to Day Task 
--I divided my whole task into four week sprint program and proceeded, step by step from learning, building and deploying the project. Whatever I learned, explored, researched during this program is fully detailed in tables below:
+I divided my whole task into four week sprint program and proceeded, step by step from learning, building and deploying the project. Whatever I learned, explored, researched during this program is fully detailed in tables below:
+
 
 # Video link of project with full explanation
 Link : https://youtu.be/Nhd_aA6lrn8
