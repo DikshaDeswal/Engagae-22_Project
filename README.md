@@ -64,19 +64,23 @@ Homepage constitutes the basic features of applications mentioned in the navigat
 
 Cars suggest and price predict web application uses a number of open source python libraries and styling tools:
 
-- [Flask](https://palletsprojects.com/p/flask/) - Depolyed python project application
+- [Flask : 2.1.2](https://palletsprojects.com/p/flask/) - Depolyed python project application
+- [Pandas : 1.4.2](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) - Handling large dataframes
+- [Numpy : 1.22.4](https://numpy.org/) - Manipulating data to get data in alignment with requirements
+- [Matplotlib : 3.5.2](https://matplotlib.org/) - Plot effective visualisations
+- [Plotly : 5.8.0](https://plotly.com/) - Plot effective visualisations
+- [Seaborn : 0.11.2](https://seaborn.pydata.org/) - Plot effective visualisations
+- [Scipy : 1.8.1](https://scipy.org/) - Additional computing tools over numpy
+- [Scikit-learn : 1.1.1](https://scikit-learn.org/stable/) - Machine learning algoritms
+- [Requests : 2.27.1](https://scikit-learn.org/stable/) - Get data from form to main app
 - [Pickle](https://docs.python.org/3/library/pickle.html) - Save and load ML models
-- [Pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) - Handling large dataframes
-- [Numpy](https://numpy.org/) - Manipulating data to get data in alignment with requirements
-- [Matplotlib](https://matplotlib.org/) - Plot effective visualisations
-- [Plotly](https://plotly.com/) - Plot effective visualisations
-- [Seaborn](https://seaborn.pydata.org/) - Plot effective visualisations
 - [Stylesheet](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css) - Font style 
 - [Script](https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js) - Image styling 
 - [Swiper](https://unpkg.com/swiper@8/swiper-bundle.min.css) - Swiper design and style script
 
 # Application Development Strategy and Day to Day Task 
 I divided my whole task into four week sprint program and proceeded, step by step from learning, building and deploying the project. Whatever I learned, explored, researched during this program is fully detailed in tables below:
+Link : https://docs.google.com/spreadsheets/d/1idKzuLYCOCJlQ_GF3UNA_uQfycd10-jW/edit?usp=sharing&ouid=103635047232343090927&rtpof=true&sd=true 
 
 
 # Video link of project with full explanation
