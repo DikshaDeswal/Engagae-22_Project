@@ -81,7 +81,7 @@ Cars suggest and price predict web application uses a number of open source pyth
 # Future Enhacement
 - Get data of number of clicks on individual webpages and analyse to find the hot topics of interest among customer
 - user that data for customer classification to show cars of customer interest
-- Also use the data to preict the right time to lauch the right combination of specifications in need at market
+- Also use the data to predict the right time to lauch the right combination of specifications in need at market
 
 ## Installation
 ### Requirements
