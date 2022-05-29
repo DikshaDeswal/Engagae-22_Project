@@ -78,9 +78,14 @@ Cars suggest and price predict web application uses a number of open source pyth
 - [Script](https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js) - Image styling 
 - [Swiper](https://unpkg.com/swiper@8/swiper-bundle.min.css) - Swiper design and style script
 
+# Future Enhacement
+- Get data of number of clicks on individual webpages and analyse to find the hot topics of interest among customer
+- user that data for customer classification to show cars of customer interest
+- Also use the data to preict the right time to lauch the right combination of specifications in need at market
+
 ## Installation
 ### Requirements
--python 3.x
+- python 3.x
 ### Run the project
 - Clone the git repo
 - In terminal run pip intsall requirements.txt
