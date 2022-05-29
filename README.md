@@ -60,7 +60,7 @@ Homepage constitutes the basic features of applications mentioned in the navigat
 3. Mileage
 ![](./Static/img006.jpeg)
 
-## Tech
+## Tech Stack
 
 Cars suggest and price predict web application uses a number of open source python libraries and styling tools:
 
@@ -77,6 +77,15 @@ Cars suggest and price predict web application uses a number of open source pyth
 - [Stylesheet](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css) - Font style 
 - [Script](https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js) - Image styling 
 - [Swiper](https://unpkg.com/swiper@8/swiper-bundle.min.css) - Swiper design and style script
+
+## Installation
+### Requirements
+-python 3.x
+### Run the project
+- Clone the git repo
+- In terminal run pip intsall requirements.txt
+- place all the static files and templates in venv with app.py
+- Run python app.py
 
 # Application Development Strategy and Day to Day Task 
 I divided my whole task into four week sprint program and proceeded, step by step from learning, building and deploying the project. Whatever I learned, explored, researched during this program is fully detailed in tables below:
